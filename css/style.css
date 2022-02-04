@@ -22,3 +22,20 @@
 .float-right{
     float: right;
 }
+/*MAIN*/
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-bar-left{
+    width: 13%;
+    height: 100%;
+    background-color: black;
+}
+
+.main-container{
+    width: 87%;
+    height: 100%;
+    background-color: chartreuse;
+}
