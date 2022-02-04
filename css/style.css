@@ -48,7 +48,7 @@ main{
 
 .nav-bar-main-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 15px;
     align-items: center;
     width: 100%;
@@ -56,4 +56,19 @@ main{
 
 .nav-bar-main-container a{
     text-decoration: none;
+    margin-right: 18px;
+    font-size: 18px;
 }
+
+.title-container-1{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.album-list{
+    display: flex;
+    padding-left: 20px;
+}
+
+.album-list .album
