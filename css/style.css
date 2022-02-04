@@ -1,0 +1,24 @@
+/*RESET*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*CLASSI-DI-UTILIZZO*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
