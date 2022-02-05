@@ -148,7 +148,7 @@ main{
 
 .nav-bar-main-container{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 21px;
     width: 100%;
 }
 
@@ -242,7 +242,7 @@ main{
     font-size: 32px;
 }
 
-#line{
+#line-1{
     background-color: red;
     border-radius: 5px;
     width: 500px;
@@ -256,10 +256,21 @@ main{
     height: 100%;
 }
 /*Destra*/
+#nav-right{
+    display: flex;
+    align-items: center;
+}
 
+#nav-right .fas{
+    margin-right: 15px;
+}
 
-
-
+#line-2{
+    background-color: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 5px;
+}
 
 /*MEDIA-QUERY*/
 /*TABLET*/
@@ -315,22 +326,11 @@ main{
         margin-bottom: 20px;
     }
     
-    .album img{
-        width: 100%;
-    }
     
-    .album-list .album-title{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .border-radius{
-        border-radius: 56%;
-    }
 }
 
 /*SMARTPHONE*/
-@media screen and (min-width: 576px){
+@media screen and (max-width: 576px){
     
     .nav-bar-left{
         width: 40%;
