@@ -24,12 +24,11 @@
 }
 /*MAIN*/
 main{
-    height: 100vh;
+    display: flex;
 }
 /*Menù-Spotify-Laterale-Sinistro*/
 .nav-bar-left{
     width: 13%;
-    height: 100%;
     padding: 26px 0px 7px 0px;
     background-color: black;
 }
@@ -135,7 +134,7 @@ main{
 /*Contenuto-centrale-principale-spotify*/
 .main-container{
     width: 87%;
-    height: 100%;
+    height: 100vh;
     background-color: chartreuse;
     overflow: auto;
 }
@@ -186,6 +185,16 @@ main{
     justify-content: center;
 }
 
+.title h3{
+    text-align: center;
+    line-height: 21px;
+    padding: 15px 13px 4px 13px;
+}
+
+.title h5{
+    text-align: center;
+}
+
 .border-radius{
     border-radius: 56%;
 }
@@ -229,7 +238,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 14px;
-    margin-bottom: 18px;
+    margin-bottom: 11px;
 }
 
 #player-buttons .fas{
@@ -247,6 +256,7 @@ main{
     border-radius: 5px;
     width: 500px;
     height: 5px;
+    margin: 0px 20px;
 }
 
 #line-inside{
@@ -255,6 +265,16 @@ main{
     width: 30%;
     height: 100%;
 }
+
+#flex-container{
+    display: flex;
+    align-items: center;
+}
+
+#flex-container span{
+    font-size: 13px;
+}
+
 /*Destra*/
 #nav-right{
     display: flex;
@@ -326,7 +346,33 @@ main{
         margin-bottom: 20px;
     }
     
-    
+
+    #nav-left{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    #nav-center{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+
+    #player-buttons{
+        display: flex;
+        justify-content: end;
+        margin-top: 14px;
+        margin-bottom: 18px;
+    }
+
+    #line-1{
+        background-color: red;
+        border-radius: 5px;
+        width: 228px;
+        height: 5px;
+    }
 }
 
 /*SMARTPHONE*/
