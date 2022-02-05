@@ -24,7 +24,6 @@
 }
 /*MAIN*/
 main{
-    width: 100vw;
     height: 100vh;
 }
 /*Menù-Spotify-Laterale-Sinistro*/
@@ -32,7 +31,7 @@ main{
     width: 13%;
     height: 100%;
     padding: 26px 0px 7px 0px;
-    background-color: red;
+    background-color: black;
 }
 
 .nav-bar-left img{
@@ -46,11 +45,10 @@ main{
 }
 
 .first-navs-menù img{
-    margin-bottom: 0px;
-    vertical-align: middle;
     height: 32px;
     margin-right: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 11px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .first-navs-menù span{
@@ -59,9 +57,81 @@ main{
 }
 
 .playlist{
-    
+    padding-left: 20px;
 }
 
+.playlist h4{
+    color: white;
+}
+
+.playlist a{
+    text-decoration: none;
+    background-color: grey;
+    padding: 2px 12px;
+    font-size: 32px;
+    color: black;
+    vertical-align: sub;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+
+.playlist span{
+    color: #606060;
+}
+
+.playlist ul{
+    margin-top: 20px;
+    line-height: 35px;
+    list-style: none;
+    color: #606060;
+}
+
+.playlist li{
+    font-size: 14px;
+}
+
+.download-app{
+    padding-left: 20px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+
+.download-app span{
+    color: #606060;
+    font-size: 14px;
+}
+
+.download-app img{
+    padding: 0px;
+    height: 20px;
+    vertical-align: text-top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#border-bottom-download{
+    border-bottom: 1px solid #606060;
+    margin-right: 25px;
+}
+
+.user-id{
+    padding-left: 21px;
+}
+
+.user-id img{
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: grey;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding: 4px;
+}
+
+.user-id span{
+    color: white;
+    vertical-align: super;
+}
 /*Contenuto-centrale-principale-spotify*/
 .main-container{
     width: 87%;
@@ -77,17 +147,15 @@ main{
 }
 
 .nav-bar-main-container{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-top: 15px;
-    align-items: center;
     width: 100%;
 }
 
 .nav-bar-main-container a{
     text-decoration: none;
     margin-top: 5px;
-    margin-right: 18px;
+    margin-right: 20px;
     font-size: 17px;
 }
 
@@ -101,7 +169,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     padding-left: 20px;
-    gap: 18px;
+    gap: 14px;
     margin-bottom: 80px;
 }
 
@@ -186,4 +254,128 @@ main{
     border-radius: 5px;
     width: 30%;
     height: 100%;
+}
+/*Destra*/
+
+
+
+
+
+/*MEDIA-QUERY*/
+/*TABLET*/
+@media screen  and (min-width: 577px) and (max-width: 768px) {
+    
+    .nav-bar-left{
+        width: 31%;
+        height: 100%;
+        padding: 26px 0px 7px 0px;
+        background-color: black;
+    }
+    
+    .main-container{
+        width: 69%; 
+        overflow: auto;
+    }
+
+    .top-bar{
+        width: 100%;
+        height: 10vh;
+        background-color: rgba(0, 0, 0, 0.4)
+    }
+
+    .nav-bar-main-container{
+        margin-top: 0px;
+        line-height: 49px;
+        padding-left: 16px;
+    }
+
+    .nav-bar-main-container a{
+        text-decoration: none;
+        margin-top: 5px;
+        margin-right: 18px;
+        font-size: 10px;
+    }
+
+    .title-container{
+        margin-top: 20px;
+        padding-left: 16px;
+        margin-bottom: 30px;
+    }
+    
+
+    .album-list{
+        display: flex;
+        padding-left: 16px;
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+    
+    .album{
+        width: 23%;
+        margin-bottom: 20px;
+    }
+    
+    .album img{
+        width: 100%;
+    }
+    
+    .album-list .album-title{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .border-radius{
+        border-radius: 56%;
+    }
+}
+
+/*SMARTPHONE*/
+@media screen and (min-width: 576px){
+    
+    .nav-bar-left{
+        width: 40%;
+        height: 100%;
+        padding: 26px 0px 7px 0px;
+        background-color: black;
+    }
+
+    .main-container{
+        width: 60%;
+        height: 100%;
+        background-color: chartreuse;
+        overflow: auto;
+    }
+
+    .nav-bar-main-container{
+        padding-left: 13px;
+    }
+
+    .nav-bar-main-container a{
+        text-decoration: none;
+        margin-top: 5px;
+        margin-right: 18px;
+        font-size: 13px;
+        line-height: 41px;
+    }
+
+    .album-list{
+        display: flex;
+        padding-left: 16px;
+        gap: 8px;
+        margin-bottom: 30px;
+    }
+    
+
+    .album{
+        width: 44%;
+        margin-bottom: 20px;
+    }
+    
+    #line{
+        background-color: red;
+        border-radius: 5px;
+        width: 179px;
+        height: 5px;
+    }
+
 }
