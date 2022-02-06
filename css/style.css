@@ -121,12 +121,15 @@
 
 .main-container h2{
     padding-left: 25px;
+    font-size: 2.15em;
+    margin-bottom: 8px;
 }
 
 .main-container h5{
     padding-left: 25px;
     margin-top: 8px;
     margin-bottom: 10px;
+    font-size: 1.05em;
 }
 
 .top-bar-button-upgrade{
@@ -171,7 +174,7 @@
 
 .album-title{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .border-radius{
@@ -304,7 +307,7 @@
     .main-container h5 {
         padding-left: 16px;
         margin-top: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 22px;
     }
 
     .album-container {
@@ -383,7 +386,7 @@
     .main-container h5 {
         padding-left: 16px;
         margin-top: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 17px;
     }
 
     .album-container {
@@ -538,6 +541,30 @@
     #nav-left {
         display: flex;
         align-items: center;
-        margin-right: 11px;
+        margin-right: 15px;
     }
+
+    #nav-right {
+        display: flex;
+        align-items: center;
+        margin-left: 6px;
+    }
+
+    #nav-right .fas{
+        margin-right: 4px;
+    }
+
+    #line-1 {
+        background-color: red;
+        border-radius: 5px;
+        width: 143px;
+        height: 5px;
+        margin: 0px 8px;
+    }
+
+    #text-container{
+        margin-right: 9px;
+        margin-left: 5px;
+    }
+
 }
