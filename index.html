@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <!-- Font-Awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Spotify</title>
 </head>
 <body class="font">
-    <main>
+
+    <main class="flex">
+
         <!--Menù-Spotify-Laterale-Sinistro-->
         <div class="nav-bar-left">
             <!--Logo-spotify-->
@@ -38,22 +40,21 @@
                     <li>Nome PLaylist</li>
                 </ul>
             </nav>
-            <!--Download-app-->
+            <!--Download-app-user-id-->
             <div class="download-app">
                 <div id="border-bottom-download"><img src="img/download.svg" alt="icon-download"><span>Installa app</span></div>
-            </div>
-            <!--Username-->
-            <div class="user-id">
-                <img src="img/profile.svg" alt="icon-user"><span>John Doe</span>
+                <!--Username-->
+                <img src="img/profile.svg" alt="icon-user" id="id-user"><span>John Doe</span>
             </div>
         </div>
 
-        <!--Contenuto-centrale-principale-spotify-->
+        <!--Contenuto-centrale-principale-Spotify-->
         <div class="main-container">
-            <!--Header-bottone-effettua-upgrade-->
-            <div class="top-bar">
+            <!--Top-bar-->
+            <div class="top-bar-button-upgrade">
             </div>
-            <nav class="nav-bar-main-container">
+            <!--Nav-container-->
+            <nav class="nav-spotify">
                 <a href="#">IN EVIDENZA</a>
                 <a href="#">PODCAST</a>
                 <a href="#">CLASSIFICHE</a>
@@ -63,147 +64,108 @@
             </nav>
 
             <!--Riprodotti-di-recente-->
-            <section class="title-container">
-                <h1>Recently played</h1>
-            </section>
+            <h2>Recently played</h2>
 
-            <!--Prima-Lista-->
-            <div class="album-list">
+            <!--Prima-Lista--->
+            <div class="album-container">
+
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Heavy metal</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Subtitle</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
 
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Kyle Dixon & Michael Stein</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
 
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>A quiet place</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Subtitle</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
 
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Split</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Subtitle</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
 
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>A cure for wellness</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Subtitle</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
 
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Sinister</h3>
-                            <!--Sotto-titolo-->
-                            <h5>Subtitle</h5>
-                        </div>
+                        <h4>Prova</h4>
+                        <h5>Prova</h5>
                     </div>
                 </div>
+
             </div>
 
             <!--Creato-per-->
-            <section class="title-container">
-                <h1>Creato per John Doe</h1>
-                <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
-            </section>
+            <h2 style="margin-top: 80px;">Creato per John Doe</h2>
+            <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
 
             <!--Seconda-Lista-->
-            <div class="album-list" style="margin-bottom: 29px;">
+            <div class="album-container">
+
                 <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Release Radar</h3>
-                        </div>
+                        <h4>Prova</h4>
+                    </div>
+                </div>
+    
+                <div class="album">
+                    <img src="img/metal_lifting.jpg" alt="album-metal">
+                    <div class="album-title">
+                        <h4>Prova</h4>
                     </div>
                 </div>
 
-                <div class="album">
-                    <img src="img/metal_lifting.jpg" alt="metal-playlist">
-                    <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>Daily Mix 1</h3>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-            <!--Artisti-Popolari-->
-            <section class="title-container">
-                <h1>Artsiti più popolari</h1>
-                <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
-            </section>
+            <!--Artisti-popolari-->
+            <h2 style="margin-top: 30px;">Artisti più popolari</h2>
+            <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
 
-            <!--Terza-Lista-->
-            <div class="album-list">
+            <!--Terza-Lista--->
+            <div class="album-container">
+
                 <div class="album">
-                    <img  class="border-radius" src="img/metal_lifting.jpg" alt="metal-playlist">
+                    <img src="img/metal_lifting.jpg" alt="album-metal" class="border-radius">
                     <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>prova</h3>
-                            <!--Sotto-titolo-->
-                            <h5>prova</h5>
-                        </div>
+                        <h4>Prova</h4>
+                    </div>
+                </div>
+    
+                <div class="album">
+                    <img src="img/metal_lifting.jpg" alt="album-metal" class="border-radius">
+                    <div class="album-title">
+                        <h4>Prova</h4>
                     </div>
                 </div>
 
-                <div class="album">
-                    <img  class="border-radius" src="img/metal_lifting.jpg" alt="metal-playlist">
-                    <div class="album-title">
-                        <div class="title">
-                            <!--Titolo-->
-                            <h3>prova</h3>
-                            <!--Sotto-titolo-->
-                            <h5>prova</h5>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
+
     </main>
 
     <footer class="player-bar-menù">
@@ -218,10 +180,7 @@
             <i class="fas fa-folder"></i>
         </nav>
 
-
-        
         <nav id="nav-center">
-
             <div id="player-buttons">
                 <i class="fas fa-random"></i>
                 <i class="fas fa-step-backward"></i>
@@ -229,7 +188,6 @@
                 <i class="fas fa-step-forward"></i>
                 <i class="fas fa-redo"></i>
             </div>
-
             <!--Durata-brano-->
             <div id="flex-container">
                     <span>0:25</span>
@@ -239,7 +197,6 @@
                 </div>
                     <span>4:35</span> 
             </div>
-
         </nav>
 
         <nav id="nav-right">
@@ -252,5 +209,6 @@
         </nav>
 
     </footer>
+
 </body>
 </html>
