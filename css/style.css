@@ -271,3 +271,172 @@
     width: 150px;
     height: 5px;
 }
+
+/*MEDIA-QUERY*/
+
+/*TABLET*/
+@media screen and (min-width: 640px)  and (max-width: 878px){
+    .nav-bar-left {
+        width: 30%;
+        height: 1000px;
+        padding: 26px 0px 0px 0px;
+        background-color: black;
+    }
+
+    .nav-spotify {
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 40px;
+        padding: 0px 14px 0px 27px;
+        line-height: 46px;
+    }
+
+    .nav-spotify a {
+        text-decoration: none;
+        margin-right: 14px;
+        font-size: 0.90em;
+    }
+
+    .main-container h2 {
+        padding-left: 16px;
+    }
+
+    .main-container h5 {
+        padding-left: 16px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .album-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+
+    .album {
+        width: 23%;
+        margin-right: 8px;
+    }
+
+    .album-title h5 {
+        padding-left: 0px;
+    }
+
+    #player-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 11px;
+        margin-left: 29px;
+    }
+
+    #line-1 {
+        background-color: red;
+        border-radius: 5px;
+        width: 281px;
+        height: 5px;
+        margin: 0px 20px;
+    }
+
+    #nav-left {
+        display: flex;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    #line-2 {
+        background-color: red;
+        border-radius: 5px;
+        width: 125px;
+        height: 5px;
+    }
+
+}
+/*SMARTPHONE*/
+@media screen and (max-width: 639px){
+    .nav-bar-left {
+        width: 52%;
+        height: 1000px;
+        padding: 26px 0px 0px 0px;
+        background-color: black;
+    }
+
+    .nav-spotify {
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 16px;
+        padding: 0px 14px 0px 27px;
+        line-height: 46px;
+    }
+
+    .nav-spotify a {
+        text-decoration: none;
+        margin-right: 14px;
+        font-size: 0.90em;
+    }
+
+    .main-container h2 {
+        padding-left: 16px;
+    }
+
+    .main-container h5 {
+        padding-left: 16px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .album-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+
+    .album {
+        width: 44%;
+        margin-right: 8px;
+    }
+
+    .album-title h5 {
+        padding-left: 0px;
+    }
+
+    #player-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 11px;
+        margin-left: 17px;
+    }
+
+    #line-1 {
+        background-color: red;
+        border-radius: 5px;
+        width: 135px;
+        height: 5px;
+        margin: 0px 8px;
+    }
+
+    #nav-left {
+        display: flex;
+        align-items: center;
+        margin-right: 38px;
+    }
+
+    #line-2 {
+        background-color: red;
+        border-radius: 5px;
+        width: 90px;
+        height: 5px;
+    }
+
+    #text-container{
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+
+    #nav-right .fas{
+        margin-right: 9px;
+    }
+}
