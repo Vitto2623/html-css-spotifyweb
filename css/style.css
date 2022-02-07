@@ -16,22 +16,26 @@
 
 /*MAIN*/
 main{
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 /*Menù-Spotify-Laterale-Sinistro*/
 .nav-bar-left{
-    width: 12%;
+    width: 237px;
     height: 100%;
     padding: 26px 0px 0px 0px;
     background-color: black;
 }
 
 #nav-top{
-    height: 92%;
+    height: 204px;
+}
+
+.playlist{
+    height: 800px;
 }
 
 #nav-bottom{
-    height: 8%;
+    
 }
 
 .nav-bar-left img{
@@ -58,7 +62,6 @@ main{
 
 .playlist{
     padding-left: 20px;
-    height: 40%;
 }
 
 .playlist h4{
@@ -124,7 +127,7 @@ main{
 
 /*Contenuto-centrale-Spotify*/
 .main-container{
-    width: 88%;
+    width: calc(100% - 237px);
     height: 100%;
     background-color: chartreuse;
     overflow: auto;
@@ -223,6 +226,7 @@ a:hover{
 /*FOOTER*/
 .player-bar-menù{
     display: flex;
+    height: 100px;
     justify-content: space-between;
     padding: 15px 10px 26px;
     background-color: grey;
