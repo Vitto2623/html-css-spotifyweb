@@ -18,44 +18,52 @@
 
         <!--Menù-Spotify-Laterale-Sinistro-->
         <div class="nav-bar-left">
-            <!--Logo-spotify-->
-            <img src="img/logo.svg" alt="logo-spotify">
-            <!--Nav-->
-            <nav class="first-navs-menù">
-                <div><img src="img/home.svg" alt="logo-casa"><span>Home</span></div>
-                <div><img src="img/search.svg" alt="logo-cerca"><span>Cerca</span></div>
-                <div><img src="img/libreria.svg" alt="logo-libreria" style="margin-bottom: 0px;vertical-align: middle;"><span>La tua libreria</span></div>
-            </nav>
-            <!--Playlist-->
-            <nav class="playlist">
-                <h4 style="margin-bottom: 11px;">PLAYLIST</h4>
-                <a href="#">+</a><span>Crea playlist</span>
-                <ul>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                    <li>Nome PLaylist</li>
-                </ul>
-            </nav>
-            <!--Download-app-user-id-->
-            <div class="download-app">
-                <div id="border-bottom-download"><img src="img/download.svg" alt="icon-download"><span>Installa app</span></div>
-                <!--Username-->
-                <img src="img/profile.svg" alt="icon-user" id="id-user"><span>John Doe</span>
-            </div>
+
+            <section id="nav-top">
+                <!--Logo-spotify-->
+                <img src="img/logo.svg" alt="logo-spotify">
+                <!--Nav-->
+                <nav class="first-navs-menù">
+                    <div><img src="img/home.svg" alt="logo-casa"><span>Home</span></div>
+                    <div><img src="img/search.svg" alt="logo-cerca"><span>Cerca</span></div>
+                    <div><img src="img/libreria.svg" alt="logo-libreria" style="margin-bottom: 0px;vertical-align: middle;"><span>La tua libreria</span></div>
+                </nav>
+                <!--Playlist-->
+                <nav class="playlist">
+                    <h4 style="margin-bottom: 11px;">PLAYLIST</h4>
+                    <a href="#">+</a><span>Crea playlist</span>
+                    <ul>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                        <li>Nome PLaylist</li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="nav-bottom">
+                <!--Download-app-user-id-->
+                <div class="download-app">
+                    <div id="border-bottom-download"><img src="img/download.svg" alt="icon-download"><span>Installa app</span></div>
+                    <!--Username-->
+                    <img src="img/profile.svg" alt="icon-user" id="id-user"><span>John Doe</span>
+                </div>
+            </section>
+
         </div>
 
         <!--Contenuto-centrale-principale-Spotify-->
         <div class="main-container">
             <!--Top-bar-->
             <div class="top-bar-button-upgrade">
+                <button>EFFETTUA L'UPGRADE</button>
             </div>
             <!--Nav-container-->
             <nav class="nav-spotify">
-                <a href="#">IN EVIDENZA</a>
+                <a href="#" id="border-bottom">IN EVIDENZA</a>
                 <a href="#">PODCAST</a>
                 <a href="#">CLASSIFICHE</a>
                 <a href="#">GENERI E MOOD</a>
