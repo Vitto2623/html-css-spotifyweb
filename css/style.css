@@ -87,6 +87,10 @@ main{
     vertical-align: -webkit-baseline-middle;
 }
 
+.first-navs-menù .special-2:hover{
+    border-left: 3px solid greenyellow;
+}
+
 .first-navs-menù span{
     color: #606060;
     font-size: 14px;
@@ -239,10 +243,8 @@ button:hover{
     position: relative;
 }
 
-#border-bottom-1{
-    display: block;
+/*#border-bottom-1{
     border-bottom: 2px solid greenyellow;
-    position: absolute;
     position: absolute;
     width: 38px;
     top: 25px;
@@ -252,7 +254,6 @@ button:hover{
 #border-bottom-2{
     border-bottom: 2px solid greenyellow;
     position: absolute;
-    position: absolute;
     width: 38px;
     top: 25px;
     left: 686px;
@@ -260,7 +261,6 @@ button:hover{
 
 #border-bottom-3{
     border-bottom: 2px solid greenyellow;
-    position: absolute;
     position: absolute;
     width: 38px;
     top: 25px;
@@ -270,7 +270,6 @@ button:hover{
 #border-bottom-4{
     border-bottom: 2px solid greenyellow;
     position: absolute;
-    position: absolute;
     width: 38px;
     top: 25px;
     left: 945px;
@@ -278,7 +277,6 @@ button:hover{
 
 #border-bottom-5{
     border-bottom: 2px solid greenyellow;
-    position: absolute;
     position: absolute;
     width: 38px;
     top: 25px;
@@ -288,11 +286,10 @@ button:hover{
 #border-bottom-6{
     border-bottom: 2px solid greenyellow;
     position: absolute;
-    position: absolute;
     width: 38px;
     top: 25px;
     left: 1210px;
-}
+}*/
 
 .nav-spotify a{
     text-decoration: none;
@@ -300,8 +297,13 @@ button:hover{
     color: #7b7d82;
 }
 
+#border-bottom{
+    border-bottom: 2px solid greenyellow;
+}
+
 a:hover{
     color: white;
+    border-bottom: 2px solid greenyellow;
 }
 .album-container{
     display: flex;
