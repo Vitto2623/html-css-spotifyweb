@@ -187,14 +187,14 @@ main{
 }
 
 .main-container h2{
-    padding-left: 15px;
+    padding-left: 26px;
     font-size: 2.15em;
     margin-bottom: 8px;
     color: white;
 }
 
 .main-container h5{
-    padding-left: 15px;
+    padding-left: 26px;
     margin-top: 8px;
     margin-bottom: 10px;
     font-size: 1.05em;
@@ -232,8 +232,8 @@ button:hover{
 
 .nav-spotify{
     text-align: center;
-    margin-top: 14px;
-    margin-bottom: 40px;
+    margin-top: 23px;
+    margin-bottom: 54px;
 }
 
 .nav-spotify a{
@@ -253,13 +253,13 @@ a:hover{
 .album-container{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 13px;
+    padding-left: 26px;
     padding-top: 20px;
 }
 
 .album{
     width: 15%;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 .container-overlay{
@@ -417,7 +417,7 @@ a:hover{
 #line-1{
     background-color: #5a5a5a;
     border-radius: 5px;
-    width: 533px;
+    width: 540px;
     height: 5px;
     margin: 0px 20px;
 }
@@ -508,6 +508,7 @@ a:hover{
 #line-container:hover #circle-2{
     display: inline-block;
 }
+
 
 /*MEDIA-QUERY*/
 
