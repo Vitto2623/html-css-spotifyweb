@@ -266,8 +266,8 @@ button:hover{
 }
 
 .album{
-    width: 15%;
-    margin-right: 21px;
+    width: 14%;
+    margin-right: 19px;
 }
 
 .container-overlay{
@@ -615,16 +615,12 @@ button:hover{
         color: white;
     }
     
-    .album-title h5 {
-        padding-left: 10px;
+    .big-subtitle{
+        padding-left: 0px;
     }
 
-    .main-container h5 {
+    .subtitle-special-s{
         padding-left: 22px;
-        margin-top: 8px;
-        margin-bottom: 10px;
-        font-size: 1.05em;
-        color: #6f7277;
     }
 
     .album-container {
@@ -654,7 +650,6 @@ button:hover{
         height: 5px;
         margin: 0px 12px;
     }
-
 }
 
 /*XS*/
@@ -713,12 +708,12 @@ button:hover{
         color: white;
     }
 
-    .main-container h5 {
-        padding-left: 17px;
-        margin-top: 8px;
-        margin-bottom: 10px;
-        font-size: 1.05em;
-        color: #6f7277;
+    .big-subtitle{
+        padding-left: 0px;
+    }
+
+    .subtitle-special-s{
+        padding-left: 18px;
     }
 
     .nav-spotify a {
