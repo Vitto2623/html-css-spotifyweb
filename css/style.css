@@ -35,6 +35,19 @@ main{
     overflow: hidden;
 }
 
+#logo-size{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 2.7em;
+}
+
+#logo-size-smartphone{
+    display: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 2.7em;
+}
+
 #nav-top{
     height: calc(100% - 75px);
     overflow: hidden;
@@ -62,6 +75,10 @@ main{
     margin-bottom: 30px;
 }
 
+.first-navs-menù span:hover{
+    color: white;
+}
+
 .first-navs-menù img{
     height: 32px;
     margin-right: 4px;
@@ -78,7 +95,21 @@ main{
     padding-left: 20px;
 }
 
-.playlist li{
+.playlist a:hover{
+    color: black;
+    background-color: white;
+}
+
+.playlist span:hover{
+    color: white;
+}
+
+.playlist li:hover{
+    color: white;
+}
+
+#overflow-ul{
+    height: 200px;
     overflow: auto;
 }
 
@@ -119,6 +150,10 @@ main{
 .download-app span{
     color: #606060;
     font-size: 14px;
+}
+
+.download-app span:hover{
+    color: white;
 }
 
 .download-app img{
@@ -224,6 +259,54 @@ a:hover{
 .album{
     width: 13%;
     margin-right: 65px;
+}
+
+.container-overlay{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.1s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container-overlay:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon .far{
+    height: 100px;
+}
+
+.fa-play-circle:hover {
+    color: white;
 }
 
 .album h3{
@@ -495,5 +578,155 @@ a:hover{
 
 /*XS*/
 @media screen and (max-width: 575px){
+    .top-bar-button-upgrade {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 89px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-bar-left {
+        width: 68px;
+        height: 100%;
+        padding: 26px 0px 0px 0px;
+        background-color: black;
+        overflow: hidden;
+    }
+
+    .main-container {
+        width: calc(100% - 68px);
+        height: 100%;
+        background-color: #141922;
+        overflow: auto;
+    }
+
+    .album-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 18px;
+        padding-top: 20px;
+    }
+
+    .album {
+        width: 45%;
+        margin-right: 5px;
+    }
+
+    .nav-spotify {
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        line-height: 45px;
+    }
+
+    .main-container h2 {
+        padding-left: 18px;
+        font-size: 1.7em;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+
+    .nav-spotify a {
+        text-decoration: none;
+        margin-right: 14px;
+        color: #7b7d82;
+        font-size: 0.8em;
+        padding-left: 7px;
+    }
+
+    #border-bottom {
+        border-bottom: 2px solid greenyellow;
+        padding-left: 3px;
+    }
+
+    .playlist h4{
+        color: white;
+        display: none;
+    }
+
+    .first-navs-menù span {
+        color: #606060;
+        font-size: 14px;
+        display: none;
+    }
+
+    .playlist {
+        padding-left: 20px;
+        display: none;
+    }
+
+    #logo-size{
+        display: none;
+    }
+
     
+    #logo-size-smartphone{
+        display: inline;
+        display: inline;
+        padding-left: 19px;
+        margin-bottom: 0px;
+        filter: invert(97%) sepia(3%) saturate(13%) hue-rotate(75deg) brightness(105%) contrast(103%);
+        height: 32px;
+    }
+
+    .download-app {
+        padding-left: 15px;
+    }
+
+    .download-app span {
+        color: #606060;
+        font-size: 14px;
+        display: none;
+    }
+
+    #border-bottom-download {
+    border-bottom: 1px solid #606060;
+    margin-right: 0px;
+    border-bottom: none;
+    padding-left: 3px;
+    }
+
+    #nav-right .fas{
+        margin-right: 15px;
+    }
+    
+    #nav-left {
+        display: flex;
+        align-items: center;
+        margin-right: 4px;
+    }
+
+    #line-1 {
+        background-color: #5a5a5a;
+        border-radius: 5px;
+        width: 163px;
+        height: 5px;
+        margin: 0px 20px;
+    }
+
+    #line-2 {
+        background-color: #5a5a5a;
+        border-radius: 5px;
+        width: 61px;
+        height: 5px;
+    }
+
+    #text-container{
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+}
+
+/*HEIGHT-PAGE*/
+@media screen  and (max-height: 500px){
+    #nav-bottom{
+        display: none;
+        z-index: -1;
+    }
 }
