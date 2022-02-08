@@ -51,6 +51,7 @@ main{
 #nav-top{
     height: calc(100% - 75px);
     overflow: hidden;
+    min-height: 420px;
 }
 
 #special{
@@ -109,8 +110,9 @@ main{
 }
 
 #overflow-ul{
-    height: 200px;
+    height: 60%;
     overflow: auto;
+    min-height: 150px;
 }
 
 .playlist h4{
@@ -188,7 +190,7 @@ main{
 
 .main-container h2{
     padding-left: 26px;
-    font-size: 2.15em;
+    font-size: 2.09em;
     margin-bottom: 8px;
     color: white;
 }
@@ -234,6 +236,62 @@ button:hover{
     text-align: center;
     margin-top: 23px;
     margin-bottom: 54px;
+    position: relative;
+}
+
+#border-bottom-1{
+    display: block;
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 573px;
+}
+
+#border-bottom-2{
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 686px;
+}
+
+#border-bottom-3{
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 800px;
+}
+
+#border-bottom-4{
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 945px;
+}
+
+#border-bottom-5{
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 1100px;
+}
+
+#border-bottom-6{
+    border-bottom: 2px solid greenyellow;
+    position: absolute;
+    position: absolute;
+    width: 38px;
+    top: 25px;
+    left: 1210px;
 }
 
 .nav-spotify a{
@@ -245,11 +303,6 @@ button:hover{
 a:hover{
     color: white;
 }
-
-#border-bottom{
-    border-bottom: 2px solid greenyellow;
-}
-
 .album-container{
     display: flex;
     flex-wrap: wrap;
@@ -702,7 +755,6 @@ a:hover{
     .nav-spotify a {
         text-decoration: none;
         margin-right: 14px;
-        color: #7b7d82;
         font-size: 0.8em;
         padding-left: 7px;
     }
@@ -796,10 +848,12 @@ a:hover{
     }
 }
 
-/*HEIGHT-PAGE*/
-@media screen  and (max-height: 500px){
-    #nav-bottom{
-        display: none;
-        z-index: -1;
+/*HEIGHT*/
+@media screen and (max-height: 700px){
+    #overflow-ul {
+        height: 100px;
+        overflow: auto;
+        min-height: 150px;
     }
+    
 }
