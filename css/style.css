@@ -374,6 +374,11 @@ a:hover{
     color: #6f7277;
 }
 
+#nav-left h6:hover{
+    color: white;
+    text-decoration-line: underline;
+}
+
 #flex-direction-column .fas{
     color: rgb(84, 81, 81);
 }
@@ -405,6 +410,10 @@ a:hover{
     font-size: 32px;
 }
 
+#far:hover{
+    transform: scale(1.08);
+}
+
 #line-1{
     background-color: #5a5a5a;
     border-radius: 5px;
@@ -414,6 +423,7 @@ a:hover{
 }
 
 #line-inside{
+    display: block;
     background-color: #c1c1c1;
     border-radius: 5px;
     width: 29%;
@@ -426,7 +436,16 @@ a:hover{
     align-items: center;
 }
 
-#circle{
+#flex-container:hover #line-inside{
+    background-color: greenyellow;
+}
+
+#flex-container:hover #circle-1{
+    display: inline-block;
+}
+
+#circle-1{
+    display: none;
     position: absolute;
     background-color: white;
     top: 0px;
@@ -456,10 +475,39 @@ a:hover{
     border-radius: 5px;
     width: 95px;
     height: 5px;
+    margin: 0px 2px 0px 3px;
+    margin-top: 2px;
 }
 
+#line-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 
+#line-container span{
+    font-size: 13px;
+    color: white;
+}
 
+#circle-2{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 16px;
+    top: 0;
+    left: 30%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#line-container:hover #line-inside{
+    background-color: greenyellow;
+}
+
+#line-container:hover #circle-2{
+    display: inline-block;
+}
 
 /*MEDIA-QUERY*/
 
@@ -650,7 +698,6 @@ a:hover{
         color: white;
     }
 
-
     .nav-spotify a {
         text-decoration: none;
         margin-right: 14px;
@@ -712,13 +759,19 @@ a:hover{
     }
 
     #nav-right .fas{
-        margin-right: 15px;
+        margin-right: 7px;
     }
     
+    #nav-center {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
     #nav-left {
         display: flex;
         align-items: center;
-        margin-right: 4px;
+        margin-right: 0px;
     }
 
     #line-1 {
