@@ -243,54 +243,6 @@ button:hover{
     position: relative;
 }
 
-/*#border-bottom-1{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 573px;
-}
-
-#border-bottom-2{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 686px;
-}
-
-#border-bottom-3{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 800px;
-}
-
-#border-bottom-4{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 945px;
-}
-
-#border-bottom-5{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 1100px;
-}
-
-#border-bottom-6{
-    border-bottom: 2px solid greenyellow;
-    position: absolute;
-    width: 38px;
-    top: 25px;
-    left: 1210px;
-}*/
-
 .nav-spotify a{
     text-decoration: none;
     margin-right: 14px;
@@ -635,6 +587,7 @@ button:hover{
 
 /*S*/
 @media screen and (min-width: 576px) and (max-width: 767px){
+
     .top-bar-button-upgrade {
         display: flex;
         justify-content: flex-end;
@@ -706,6 +659,7 @@ button:hover{
 
 /*XS*/
 @media screen and (max-width: 575px){
+
     .top-bar-button-upgrade {
         display: flex;
         justify-content: flex-end;
@@ -799,7 +753,6 @@ button:hover{
         display: none;
     }
 
-    
     #logo-size-smartphone{
         display: inline;
         display: inline;
