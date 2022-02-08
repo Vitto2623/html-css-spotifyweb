@@ -305,6 +305,7 @@ button:hover{
     color: white;
     border-bottom: 2px solid greenyellow;
 }
+
 .album-container{
     display: flex;
     flex-wrap: wrap;
