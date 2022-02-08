@@ -301,7 +301,7 @@ button:hover{
     border-bottom: 2px solid greenyellow;
 }
 
-a:hover{
+.nav-spotify a:hover{
     color: white;
     border-bottom: 2px solid greenyellow;
 }
