@@ -416,7 +416,7 @@ a:hover{
 #line-inside{
     background-color: #c1c1c1;
     border-radius: 5px;
-    width: 30%;
+    width: 29%;
     height: 100%;
 }
 
@@ -428,11 +428,11 @@ a:hover{
 
 #circle{
     position: absolute;
+    background-color: white;
     top: 0px;
-    left: 201px;
-    background-color: tomato;
+    left: 30%;
     height: 100%;
-    width: 15px;
+    width: 16px;
     border-radius: 50px;
 }
 
@@ -457,6 +457,9 @@ a:hover{
     width: 95px;
     height: 5px;
 }
+
+
+
 
 /*MEDIA-QUERY*/
 
