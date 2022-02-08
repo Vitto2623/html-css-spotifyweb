@@ -315,7 +315,7 @@ button:hover{
 
 .album{
     width: 15%;
-    margin-right: 25px;
+    margin-right: 21px;
 }
 
 .container-overlay{
@@ -592,23 +592,23 @@ button:hover{
     }
 
     .main-container h2 {
-        padding-left: 15px;
+        padding-left: 26px;
         font-size: 1.7em;
         margin-bottom: 8px;
         color: white;
     }
 
+    .album-title h5{
+        padding-left: 0px;
+    }
     .album {
         width: 22%;
         margin-right: 8px;
     }
-
-    .main-container h5 {
-        padding-left: 0px;
-        margin-top: 8px;
-        margin-bottom: 22px;
-        font-size: 1.05em;
-        color: #6f7277;
+    
+    .album h3 {
+        color: white;
+        font-size: 1em;
     }
 
     #player-buttons {
@@ -650,24 +650,28 @@ button:hover{
     .nav-spotify {
         text-align: center;
         margin-top: 14px;
-        margin-bottom: 40px;
-        padding: 0px 58px;
-        line-height: 52px;
-    }
-
-    .nav-spotify {
-        text-align: center;
-        margin-top: 14px;
         margin-bottom: 12px;
         padding: 0px 58px;
         line-height: 52px;
     }
 
     .main-container h2 {
-        padding-left: 15px;
+        padding-left: 22px;
         font-size: 1.7em;
         margin-bottom: 8px;
         color: white;
+    }
+    
+    .album-title h5 {
+        padding-left: 10px;
+    }
+
+    .main-container h5 {
+        padding-left: 22px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 1.05em;
+        color: #6f7277;
     }
 
     .album-container {
@@ -753,6 +757,14 @@ button:hover{
         font-size: 1.7em;
         margin-bottom: 8px;
         color: white;
+    }
+
+    .main-container h5 {
+        padding-left: 17px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        font-size: 1.05em;
+        color: #6f7277;
     }
 
     .nav-spotify a {
