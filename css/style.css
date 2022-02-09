@@ -645,6 +645,11 @@ button:hover{
         padding-left: 25px;
     }
 
+    #nav-right .fas {
+        margin-right: 9px;
+        color: white;
+    }
+
 }
 
 /*XS*/
