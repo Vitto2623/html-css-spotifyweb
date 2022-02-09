@@ -637,6 +637,14 @@ button:hover{
         margin-left: 5px;
     }
 
+    #player-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 11px;
+        padding-left: 25px;
+    }
+
 }
 
 /*XS*/
@@ -802,6 +810,14 @@ button:hover{
         margin: 0px 2px 0px 3px;
         margin-top: 0px;
         margin-top: 2px;
+    }
+
+    #player-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 11px;
+        padding-left: 14px;
     }
 
 }
