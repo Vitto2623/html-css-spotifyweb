@@ -84,7 +84,7 @@ main{
     height: 32px;
     margin-right: 4px;
     margin-bottom: 11px;
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
 }
 
 .first-navs-menù .special-2:hover{
@@ -369,11 +369,6 @@ button:hover{
     margin-right: 5px;
 }
 
-#flex-direction-column{
-    display: flex;
-    flex-direction: column;
-}
-
 #nav-left h5{
     color: white;
 }
@@ -387,11 +382,11 @@ button:hover{
     text-decoration-line: underline;
 }
 
-#flex-direction-column .fas{
+.fas{
     color: rgb(84, 81, 81);
 }
 
-#flex-direction-column .fas:hover{
+.fas:hover{
     color: white;
 }
 
@@ -399,6 +394,7 @@ button:hover{
 #nav-center{
     display: flex;
     flex-direction: column;
+    flex-basis: 42%;
 }
 
 #player-buttons{
@@ -411,6 +407,7 @@ button:hover{
 #player-buttons .fas{
     margin-right: 20px;
     font-size: 19px;
+    color: white;
 }
 
 #player-buttons .far{
@@ -425,7 +422,7 @@ button:hover{
 #line-1{
     background-color: #5a5a5a;
     border-radius: 5px;
-    width: 540px;
+    width: 100%;
     height: 5px;
     margin: 0px 20px;
 }
@@ -476,6 +473,7 @@ button:hover{
 
 #nav-right .fas{
     margin-right: 15px;
+    color: white;
 }
 
 #line-2{
@@ -563,26 +561,14 @@ button:hover{
         font-size: 1em;
     }
 
-    #player-buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 11px;
-        padding-left: 23px;
-    }
-
     #line-1 {
         background-color: #5a5a5a;
         border-radius: 5px;
-        width: 275px;
+        width: 70%;
         height: 5px;
         margin: 0px 20px;
     }
 
-    #flex-direction-column{
-        display: flex;
-        flex-direction: row;
-    }
 }
 
 /*S*/
@@ -625,7 +611,7 @@ button:hover{
         padding-left: 0px;
     }
 
-    .subtitle-special-s{
+    h5.subtitle-special-s{
         padding-left: 22px;
     }
 
@@ -641,21 +627,16 @@ button:hover{
         margin-right: 3%;
     }
 
-    #player-buttons {
+    #flex-direction{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 11px;
-        margin-left: 19px;
+        flex-direction: column;
     }
 
-    #line-1 {
-        background-color: #5a5a5a;
-        border-radius: 5px;
-        width: 162px;
-        height: 5px;
-        margin: 0px 12px;
+    #text-container{
+        margin-right: 17px;
+        margin-left: 5px;
     }
+
 }
 
 /*XS*/
@@ -696,8 +677,8 @@ button:hover{
     }
 
     .album {
-        width: calc(89% / 2);
-        margin-right: 2%;
+        width: calc(82% / 2);
+        margin-right: 3%;
     }
 
     .nav-spotify {
@@ -718,7 +699,7 @@ button:hover{
         padding-left: 0px;
     }
 
-    .subtitle-special-s{
+    h5.subtitle-special-s{
         padding-left: 18px;
     }
 
@@ -788,6 +769,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         margin-right: 10px;
+        flex-basis: 50%;
     }
 
     #nav-left {
@@ -796,12 +778,20 @@ button:hover{
         margin-right: 0px;
     }
 
-    #line-1 {
-        background-color: #5a5a5a;
-        border-radius: 5px;
-        width: 163px;
-        height: 5px;
-        margin: 0px 20px;
+    #text-container{
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    #player-buttons .fas {
+        margin-right: 5px;
+        font-size: 19px;
+        color: white;
+    }
+
+    #player-buttons .far {
+        margin-right: 4px;
+        font-size: 27px;
     }
 
     #line-2 {
@@ -809,12 +799,11 @@ button:hover{
         border-radius: 5px;
         width: 61px;
         height: 5px;
+        margin: 0px 2px 0px 3px;
+        margin-top: 0px;
+        margin-top: 2px;
     }
 
-    #text-container{
-        margin-right: 10px;
-        margin-left: 5px;
-    }
 }
 
 /*HEIGHT*/
